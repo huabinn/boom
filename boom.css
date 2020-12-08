@@ -1,0 +1,100 @@
+#mine{
+    user-select: none;
+    /* 禁止选择页面文字 */
+    text-align: center;
+    margin: 100px auto;
+} 
+.level{
+    text-align: center;
+    margin: 50px auto;
+}
+.level button{
+    padding: 0px 10px;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.level button:hover{
+    background-color: red;
+}
+
+table{
+    border-spacing: 1px;
+    background-color: darkgrey;
+    margin: 0 auto;
+}
+td{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(192,192,192);
+    padding: 0;
+    border: solid 3px;
+    border-color: white rgb(128,128,128) rgb(128,128,128) white;
+    text-align: center;
+    line-height: 18px;
+}
+
+td:hover{
+    background-color: #d9d9d9;
+}
+
+td.zero{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(0, 0, 0);
+}
+td.one{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: blue;
+}
+td.two{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color :red;
+}
+td.three{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: orange;
+}
+td.four{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(211, 64, 224);
+}
+td.five{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(224, 64, 99);
+}
+td.six{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(77, 224, 64);
+}
+td.seven{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(224, 141, 64);
+}
+td.eight{
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: rgb(200, 224, 64);
+}
+
+.info{
+    margin: 50px auto;
+}
+
+.mine{
+    background: url(./pictures/boom.gif) no-repeat center;
+    background-size: cover;
+}
+.flag{
+    background: url(./pictures/flag.jpg)no-repeat center;
+    background-size: cover;
+}
